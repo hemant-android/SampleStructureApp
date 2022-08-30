@@ -4,8 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Personal/Mickey/SampleProject/workSpace/SampleStructureApp/app/src/main/res/drawable/bg_black.xml" value="0.1345" />
+        <entry key="..\:/Personal/Mickey/SampleProject/workSpace/SampleStructureApp/app/src/main/res/drawable/bg_edit_text.xml" value="0.1345" />
         <entry key="..\:/Personal/Mickey/SampleProject/workSpace/SampleStructureApp/app/src/main/res/drawable/bg_white_black_border.xml" value="0.1345" />
         <entry key="..\:/Personal/Mickey/SampleProject/workSpace/SampleStructureApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1345" />
+        <entry key="..\:/Personal/Mickey/SampleProject/workSpace/SampleStructureApp/app/src/main/res/layout/activity_login.xml" value="0.17074275362318841" />
         <entry key="..\:/Personal/Mickey/SampleProject/workSpace/SampleStructureApp/app/src/main/res/layout/activity_main.xml" value="0.17074275362318841" />
         <entry key="..\:/Personal/Mickey/SampleProject/workSpace/SampleStructureApp/app/src/main/res/layout/progress_loading.xml" value="0.17074275362318841" />
         <entry key="..\:/Personal/Mickey/SampleProject/workSpace/SampleStructureApp/app/src/main/res/layout/row_main_list.xml" value="0.17074275362318841" />

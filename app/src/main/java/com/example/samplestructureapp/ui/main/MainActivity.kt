@@ -3,21 +3,20 @@ package com.example.samplestructureapp.ui.main
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
-import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.samplestructureapp.ui.main.adaptor.MainAdapter
+import com.example.samplestructureapp.BaseActivity
 import com.example.samplestructureapp.databinding.ActivityMainBinding
 import com.example.samplestructureapp.model.response.GetMovieList
 import com.example.samplestructureapp.repository.AppRepository
+import com.example.samplestructureapp.ui.main.adaptor.MainAdapter
 import com.example.samplestructureapp.ui.main.viewmodel.MainViewModel
 import com.example.samplestructureapp.util.Resource
 import com.example.samplestructureapp.viewmodel.ViewModelProviderFactory
-import java.util.*
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : BaseActivity() {
     private lateinit var binding: ActivityMainBinding
     private lateinit var viewModel: MainViewModel
     private val adapter: MainAdapter by lazy { MainAdapter(this) }

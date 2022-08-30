@@ -2,7 +2,9 @@ package com.example.samplestructureapp.model
 
 object RequestBodies {
 
-    data class GetNotificationBody(
-        val user_id: String
+    data class LoginBody(
+        val plate_no: String,
+        val lat: String,
+        val lng: String,
     )
 }
